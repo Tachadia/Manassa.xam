@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <!-- Ceci est l'en tête de ma page html -->
+        <header>
+            <div class="logo">MOSSOLESSI</div>
+            <nav>
+              <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produit.html">Produits</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+    
+          
+        <!-- Ceci est le formulaire --> 
+        <section class="contact">
+          <h1>Contactez-nous</h1>
+          <div class="contact-info">
+              <p><strong>Numéro de téléphone :</strong> (+235) 63 23 62 34 | 99 39 70 23</p>
+              <p><strong>Email :</strong> <a href="mailto:haouaibeth@gmail">haouaibeth@gmail.com</a></p>
+              <p><strong>Site Web :</strong> <a href="http://www.tchadianews.com" target="_blank">www.tchadianews.com</a></p>
+          </div>
+          
+          <form action="submit_form.php" method="POST" class="contact-form">
+              <label for="name">Nom :</label>
+              <input type="text" id="name" name="name" required placeholder="Haoua Adoum Ibeth">
+  
+              <label for="email">Email :</label>
+              <input type="email" id="email" name="email" required placeholder="haouaibeth@gmail.com">
+  
+              <label for="message">Message :</label>
+              <textarea id="message" name="message" rows="4" required placeholder="tchadianews votre informationtion est notre priorité"></textarea>
+  
+              <button type="submit" class="submit-btn">Envoyer</button>
+          </form>
+      </section>
+
+
+      <br><br><br><br>
+  
+
+    <footer>
+        <p>&copy; 2025 TchadiaNews- Tous droits réservés</p>
+      </footer>
+</body>
+</html>
